@@ -1,0 +1,19 @@
+[package]
+name = "svgtoico"
+version = "1.0.0"
+description = "A library to convert SVG icons into Windows ICO files"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libsvgtoico"
+repository = "https://github.com/thechampagne/libsvgtoico"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "svgtoico"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+svg_to_ico = "1.2.0"
